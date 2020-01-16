@@ -1,0 +1,17 @@
+Had many issues, but managed to work them out. Here's what I learned (using PyCharm):
+
+1) You can't install Kivy on Python 3.8. If you have 3.8, go back to 3.7.
+
+2) I installed all of the packages that someone else posted a picture of. I'll post mine here. 
+Go to your project interpreter and hit the "+" button to add them all. They should successfully install.
+
+https://user-images.githubusercontent.com/56074056/72540319-ab412800-384e-11ea-983c-eebd479a1338.JPG
+https://user-images.githubusercontent.com/56074056/72540322-ab412800-384e-11ea-8306-4a61607bfd96.JPG
+
+3) Was getting the window sdl2 error. Watched this short video (https://www.youtube.com/watch?v=e_jv8KsYBrs&t=212s) 
+(may God bless this person) and changed my paths in my system  environment.
+
+4) I then reinstalled the dependencies from the Kivy website -- AND IT WORKED!!!
+
+Hope this helps someone!!!!
+
