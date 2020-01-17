@@ -9,7 +9,14 @@ https://user-images.githubusercontent.com/56074056/72540319-ab412800-384e-11ea-9
 https://user-images.githubusercontent.com/56074056/72540322-ab412800-384e-11ea-8306-4a61607bfd96.JPG
 
 3) Was getting the window sdl2 error. Watched this short video (https://www.youtube.com/watch?v=e_jv8KsYBrs&t=212s) 
-(may God bless this person) and changed my paths in my system  environment.
+(may God bless this person) and changed my paths in my system environment to:
+
+Put my main path back to Python3.7, and then created PYTHONPATH and added these:
+
+--Lib
+--DLLs
+--Scripts
+--site-packages
 
 4) I then reinstalled the dependencies from the Kivy website -- AND IT WORKED!!!
 
